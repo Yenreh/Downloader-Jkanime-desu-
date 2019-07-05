@@ -6,7 +6,7 @@ str="0"
 
 for (( counter=1; counter<=num1; counter++ ))
 do
-    if (( counter <= 10)); 
+    if (( counter < 10)); 
     then
         string3="$link$str$counter$link2"
         wget $string3
